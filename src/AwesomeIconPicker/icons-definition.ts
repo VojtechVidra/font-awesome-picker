@@ -1,4 +1,4 @@
-import { IconDefinitions } from "../types/icon-defintion";
+import { IconDefinitions } from "./icon-defintion";
 
 // Credits to https://github.com/WouterSteen/fontawesome-cheatsheet/blob/master/_data/icons50.yml
 
@@ -112,23 +112,6 @@ export const iconsDefinition: IconDefinitions = {
     },
     styles: ["brands"],
     unicode: "f170",
-    voted: false,
-  },
-  adobe: {
-    changes: ["5.6.0", "5.8.0"],
-    label: "Adobe",
-    search: {
-      terms: [
-        "acrobat",
-        "app",
-        "design",
-        "illustrator",
-        "indesign",
-        "photoshop",
-      ],
-    },
-    styles: ["brands"],
-    unicode: "f778",
     voted: false,
   },
   adversal: {
@@ -7555,16 +7538,6 @@ export const iconsDefinition: IconDefinitions = {
     },
     styles: ["solid"],
     unicode: "f6e8",
-    voted: false,
-  },
-  haykal: {
-    changes: ["5.3.0"],
-    label: "Haykal",
-    search: {
-      terms: ["bahai", "bahá'í", "star"],
-    },
-    styles: ["solid"],
-    unicode: "f666",
     voted: false,
   },
   hdd: {
