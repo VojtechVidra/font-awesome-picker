@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { AwesomeIconPicker, Icon } from "./AwesomeIconPicker/AwesomeIconPicker";
+import { AwesomeIconPicker } from "./AwesomeIconPicker/AwesomeIconPicker";
+import { Icon } from "./AwesomeIconPicker/icon-defintion";
 
 export const IconsPage = () => {
   const [value, setValue] = useState<Icon | null>(null);

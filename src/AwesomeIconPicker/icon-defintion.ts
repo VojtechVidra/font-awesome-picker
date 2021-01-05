@@ -1,3 +1,5 @@
+import { IconName, IconPrefix } from "@fortawesome/fontawesome-svg-core";
+
 export type FontAwesomeIconStyle =
   | "brands"
   | "solid"
@@ -19,3 +21,5 @@ export interface FontIconDefinition {
 }
 
 export type IconDefinitions = Record<string, FontIconDefinition>;
+
+export type Icon = [IconPrefix, IconName];
